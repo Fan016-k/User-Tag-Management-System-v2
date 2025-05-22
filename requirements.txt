@@ -1,0 +1,25 @@
+# requirements.txt - 项目依赖包配置文件
+
+# Web 框架
+fastapi>=0.95.0
+
+# ASGI 服务器
+uvicorn>=0.21.0
+
+# 数据验证框架
+pydantic>=1.10.7
+
+# 表单数据解析
+python-multipart>=0.0.5
+
+# 数据库 ORM 框架
+sqlalchemy>=1.4.40
+
+# 改进的类型注解支持
+typing-extensions>=4.5.0
+
+# 数据库操作工具
+alembic>=1.8.0  # 数据库迁移工具（可选但推荐）
+
+# 跨域资源共享支持
+fastapi-cors>=0.0.6
